@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 380px;
+    height: 700px;
+    background:#FCFCFF;
+    margin: 50px;
+}
+.header-time{
+    margin: 50px 240px 0 20px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 11px;
+}
+.main{
+    margin: 60px 0 0 30px;
+}
+.main-title{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 24px;
+}
+.main-text{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+.main-input{
+    text-align: center;
+}
+.main-input__item{
+    width: 55px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px #EFF5FF;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+}
+.item--onclick{
+    background: linear-gradient(224.2deg, #7EF192 0%, #2DC897 94.47%);
+    box-shadow: 0px 4px 16px #76ED92;
+    color: #FFFFFF;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+}
+.keyboard{
+    background: linear-gradient(224.45deg, #5D455D -2.13%, #3B2E3B 84.9%);
+    box-shadow: 0px -4px 16px #F8F9FF;
+    border-radius: 24px;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: none;
+    position: relative;
+}
+.keyboard-box{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-items: center;
+    align-items: center;
+    height: 300px;
+
+}
+.keyboard-item{
+    color: #FFFFFF;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+}
+.keyboard-item:hover{
+    border-radius: 50%;
+    background: rgba(224, 181, 248, 0.15);
+}
+.keyboard-btn{
+    background: linear-gradient(44.2deg, #7EF192 5.53%, #2DC897 100%);
+    box-shadow: 0px 4px 16px #76ED92;
+    border-radius: 25px;
+    width: 335px;
+    height: 50px;
+    position: absolute;
+    left: 2%;
+    bottom: 11%;
+    color: #FFFFFF;
+}
+.keyboard-line{
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-top: 85px;
+    width: 120px;
+    height: 5px;
+}
+.modal{
+    width: 335px;
+    height: 60px;
+    background-color: #2F2A2A;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(28, 28, 28, 0.52);
+    border-radius: 12px;
+    position: absolute;
+    top: 10%;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+    text-align: center;
+    padding: 15px;
+}
+.modal--true{
+    display: none;
+}
+.modal--false{
+    background-color: #B40707;
+    display: none;
+}

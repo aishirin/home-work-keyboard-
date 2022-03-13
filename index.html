@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <span class="header-time"></span>
+            <img src="./Mobile Signal.svg" alt="mobile-signal">
+            <img src="./Wifi.svg" alt="wifi-signal">
+            <img src="./Battery.svg" alt="mobile-signal">
+        </header>
+        <main class="main">
+            <h1 class="main-title">Create passcode</h1>
+            <p class="main-text">Enter your OTP code here. Used for logging in.</p>
+            <div class="main-input">
+                <input type="text" class="main-input__item" id="input1">
+                <input type="text" class="main-input__item"id="input2">
+                <input type="text" class="main-input__item"id="input3">
+                <input type="text" class="main-input__item"id="input4">
+            </div>
+            <div class="keyboard">
+                <div class="keyboard-box">
+                    <div class="keyboard-item"id="keyboardItem1">1</div>
+                    <div class="keyboard-item" id="keyboardItem2">2</div>
+                    <div class="keyboard-item" id="keyboardItem3">3</div>
+                    <div class="keyboard-item" id="keyboardItem4">4</div>
+                    <div class="keyboard-item" id="keyboardItem5">5</div>
+                    <div class="keyboard-item" id="keyboardItem6">6</div>
+                    <div class="keyboard-item" id="keyboardItem7">7</div>
+                    <div class="keyboard-item" id="keyboardItem8">8</div>
+                    <div class="keyboard-item" id="keyboardItem9">9</div>
+                    <div class="keyboard-item"></div>
+                    <div class="keyboard-item" id="keyboardItem0">0</div>
+                    <div class="keyboard-item" id="keyboardItemDelete"><img src="./delete.svg" alt="delete"></div>
+                    <button class="keyboard-btn">Continue</button>
+                </div>
+                <hr class="keyboard-line">
+            </div>
+            <div class="modal modal--true">Введен верный код</div>
+            <div class="modal modal--false">Введен неверный код</div>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
